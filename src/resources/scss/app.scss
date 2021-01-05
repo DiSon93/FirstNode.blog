@@ -1,1 +1,62 @@
 @import 'variables';
+.card-course-item {
+    margin-top: 16px;
+    // h5{
+    //     color: red;
+    // }
+    .form-control {
+        width: 180px;
+    }
+}
+.course__details p {
+    // width: 100%;
+    color: blue;
+}
+.user-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+.course__header {
+    display: fixed;
+    z-index: 9999;
+}
+.foooter__out {
+    background-color: black;
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .footer-intro {
+        width: 35%;
+        img {
+            width: 60%;
+        }
+    }
+    .footer_f8 {
+        display: block !important;
+        width: 15%;
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    .footer_sp {
+        display: block !important;
+        width: 15%;
+        color: white;
+        a:hover {
+            text-decoration: none;
+        }
+    }
+    .footer_help {
+        display: block !important;
+        width: 15%;
+        a:hover {
+            text-decoration: none;
+        }
+    }
+}
